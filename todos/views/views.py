@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models.models import Todo
+from ..models.models import Todo
 
 def create_todo(request):
     if request.method == 'POST':
